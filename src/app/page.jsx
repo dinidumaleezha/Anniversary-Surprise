@@ -12,14 +12,14 @@ import FloatingElements from "@/components/FloatingElements"
 import TapToReveal from "@/components/TapToReveal"
 
 //Change this to your anniversary date
- const ANNIVERSARY_DATE = "2025-05-25T00:00:00"
+ //const ANNIVERSARY_DATE = "2025-05-25T00:00:00"
 // // Change this to the date you got together
- const TOGETHER_DATE = "2022-01-01T00:00:00"
+ //const TOGETHER_DATE = "2022-01-01T00:00:00"
 
 // //Change this to your anniversary date
-// const ANNIVERSARY_DATE = "2025-08-03T00:00:00"
+ const ANNIVERSARY_DATE = "2025-08-03T20:00:00"
 // //Change this to the date you got together
-// const TOGETHER_DATE = "2024-08-03T00:00:00"
+ const TOGETHER_DATE = "2024-08-03T00:00:00"
 
 export default function Home() {
   const [loading, setLoading] = useState(true)
@@ -169,7 +169,7 @@ Me`
                 <h1 className="text-4xl md:text-6xl py-1 md:py-2 px-6 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 mb-3 animate-gradient">
                   Happy Anniversary!
                 </h1>
-                <p className="text-xl text-purple-700 font-medium">Every moment with you is a blessing ❤️</p>
+                <p className="text-xl text-purple-700 font-medium">My Sutio ❤️</p>
               </motion.div>
 
               <DaysTogether startDate={TOGETHER_DATE} animationDuration={3} />
