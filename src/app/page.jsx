@@ -17,7 +17,7 @@ import TapToReveal from "@/components/TapToReveal"
  //const TOGETHER_DATE = "2022-01-01T00:00:00"
 
 // //Change this to your anniversary date
- const ANNIVERSARY_DATE = "2025-08-03T20:00:00"
+ const ANNIVERSARY_DATE = "2025-08-03T09:00:00"
 // //Change this to the date you got together
  const TOGETHER_DATE = "2024-08-03T00:00:00"
 
